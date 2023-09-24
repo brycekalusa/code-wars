@@ -3,5 +3,5 @@
 //Answer
 
 function removeExclamationMarks(s) {
-    return s.replace('!', '')
-  }
+  return s.replace(/!/g, '')
+}
