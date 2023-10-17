@@ -3,6 +3,5 @@
 // Answer
 
 function sumStr(a,b) {
-    const sum = parseInt(a) + parseInt(b)
-    return sum.toString()
+    return String(Number(a) + Number(b));
   }
